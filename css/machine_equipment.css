@@ -298,7 +298,6 @@ main #section04 h2 {
     color: #fff;
     display: flex;
     flex-flow: column;
-	justify-content: space-around;
 	align-items: center;
 }
 .section04-text-content {
