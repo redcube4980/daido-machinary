@@ -302,8 +302,8 @@ main #section04 h2 {
 	align-items: center;
 }
 .section04-text-content {
-	display: flex;
-	flex-flow: column;
+	width: 500px;
+	margin-right: 100px;
 }
 .section04-text-content h3 {
     font-size: 16px;
@@ -800,7 +800,7 @@ flex-flow: row nowrap;
 	max-width: 100%;
 }
 .ps-br {
-	display: block;
+	display: none;
 }
 .section04-img-01 {
     height: 140px;
