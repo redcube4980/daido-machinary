@@ -301,8 +301,8 @@ main #section04 h2 {
 	align-items: center;
 }
 .section04-text-content {
-	width: 500px;
-	margin-right: 100px;
+	display: flex;
+	flex-flow: column;
 }
 .section04-text-content h3 {
     font-size: 16px;
@@ -588,6 +588,10 @@ flex-flow: row nowrap;
 .section04-text-content h3 {
     font-size: 21px;
 }
+.section04-text-content {
+    width: 500px;
+    margin-right: 100px;
+}
 .section04-text-content p {
     font-size: 14px;
 	margin: 10px 0 0 0;
@@ -704,6 +708,10 @@ main #section03 .roll-service-system {
 main #section03 .roll-service-system__img,
 main #section03 .roll-service-system h3 {
     margin-top: 100px;
+}
+.section04-text-content {
+    width: 500px;
+    margin-right: 100px;
 }
 .section04-text-content p {
 	width: 100%;
